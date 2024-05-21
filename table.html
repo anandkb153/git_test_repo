@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Demo</title>
+    <link rel="stylesheet" href="../CSS/table.css">
+</head>
+<body>
+    <table> 
+     <thead>
+        <tr> <!--table row-->
+            <th>Os</th>
+            <th>Mobile</th><!--table heading-->
+            <th>Price</th>
+        </tr>
+     </thead>
+       <tbody>
+        <tr>
+            <td rowspan="2">Android</td>
+            <td>Redmi</td>
+            <td id="amt">20000</td><!--table data-->
+        </tr>
+        <tr>
+            <td>Vivo</td>
+            <td id="amt">12000</td>
+        </tr>
+        <tr>
+            <td>Ios</td>
+            <td>i phone</td>
+            <td id="amt">120000</td>
+        </tr>
+
+       </tbody>
+      <tfoot>
+        <tr>
+            <th colspan="2">Total</th>
+            <th id="amt">152000</th>
+        </tr>
+    </table>
+      </tfoot>
+    
+</body>
+</html>
